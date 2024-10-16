@@ -1,0 +1,33 @@
+import flet
+
+
+
+#TELA INICIAL
+    #TITULO: HASHZAP
+    #BOTAO: INICIAR CHAT
+        #QUANDO CLICAR NO BOTAO:
+        #ABRIR UM POPUP/MODAL/ALERTA
+            #TITULO: BEM VINDO AO SHASHZAP
+            #CAIXA DE TEXTO: ESCREVA SEU NOME NO CHATO
+            #BOTAO: ENTRAR NO CHAT
+                #QUANDO CLICAR NO BOTAO 
+                #SUMIR COM O TITULO
+                #SUMIR COM O BOTAO INICIAR CHAT
+                    #CARREGAR O CHAT
+                    #CARREGAR O CAMPO DE ENVIAR MENSAGEM: "DIGITE SUA MENSAGEM"
+                    #BOTAO ENVIAR
+                        #QUANDO CLICAR NO BOTAO ENVIAR 
+                        #ENVIAR A MENSAGEM
+                        #LIMPAR A CAIXA DE MENSAGEM 
+
+
+#FLET EM 3 ETAPAS
+
+#IMPARTAR O FLET
+
+
+
+# CRIAR UMA FUNÇÃO PRINCIPAL PARA RODAR O APLICATIVO/SITE
+
+# EXECUTAR ESSA FUNÇÃO 
+
