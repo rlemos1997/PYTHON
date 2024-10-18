@@ -1,2 +1,0 @@
-# Python
- Aulas e exercicios 
