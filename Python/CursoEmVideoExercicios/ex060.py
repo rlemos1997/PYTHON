@@ -1,10 +1,5 @@
 import math
 
-num = 6
-
+num = int(input("Digite um numero"))
 fatorial = math.factorial(num)
-
-print(math.factorial(num))
-
-for i in range(num, 0, -1):
-    print (i,"X", end=" ")
+print(f"O fatorial de {num} é = {fatorial}")
