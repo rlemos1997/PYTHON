@@ -1,0 +1,37 @@
+import time
+
+
+preco_produto = int(input("digite o valor do produto "))
+
+print("Selecione a forma de pagamento")
+print("[1] A vista ou cheque ")
+print("[2] A vista no cartão ")
+print("[3] 2x no cartão ")
+print("[4] 3x ou mais no cartão ")
+
+opcao = int(input("Digite a forma de pagamento "))
+
+
+if opcao == 1: 
+    time.sleep(1)
+    print("Efetuando desconto...")
+    time.sleep(1)
+    print(f"A vista o seu produto vai sair de R${preco_produto}, para R${preco_produto * 0.9}")
+elif opcao == 2:
+    time.sleep(1)
+    print("Efetuando desconto...")
+    time.sleep(1)
+    print(f"A vista no cartão seu produto saira de R${preco_produto}, para {preco_produto * 0.95} ")
+elif opcao == 3:
+    time.sleep(1)
+    print("Calculando valor...")
+    time.sleep(1)
+    print(f"Sua compra é no valor de {preco_produto}, você vai pagar 2x de R${preco_produto/2:.2f}")
+elif opcao == 4:
+    parcelas = int(input("Quantas parcelas deseja pagar? "))
+    time.sleep(1)
+    print("Calculando Juros...")
+    time.sleep(1)
+    print(f"Sua compra é no valor de {preco_produto}, com juros voCê vai pagar R${preco_produto*1.20:.2f}, serão {parcelas}x de R${preco_produto/parcelas:.2f}")
+else:
+    print("Digite uma opção valida!")
